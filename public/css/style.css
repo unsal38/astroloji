@@ -1,0 +1,36 @@
+.tm-bg-white-transparent{
+    background-color: rgb(255 255 255 / 50%)!important;
+}
+#intro small{
+    width: 100%;
+    display: inline-block;
+    text-align: end;
+}
+#intro p{
+    text-align: justify;
+}
+nav#tmSidebar a[href]{
+    display: flex;
+    justify-content: flex-end;
+}
+.tm-white-rect{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+#tmMainNav li span.tm-white-rect::after{
+    content: "";
+    background-image: url(/img/horoscope.png);
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 30px;
+}
+.tm-bg-black-transparent {
+    background-color: rgb(204 65 214 / 33%);
+}
