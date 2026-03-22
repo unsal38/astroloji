@@ -9,7 +9,7 @@
 #intro p{
     text-align: justify;
 }
-nav#tmSidebar a[href]{
+nav#tmSidebar a[href]:not(ul.tm-social-links a){
     display: flex;
     justify-content: flex-end;
 }
